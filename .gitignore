@@ -1,0 +1,4 @@
+# MonoDevelop Project crap #
+*.sln
+*.mdproj
+bin/
