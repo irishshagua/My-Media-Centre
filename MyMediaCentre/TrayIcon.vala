@@ -43,7 +43,7 @@ namespace MyMediaCentre.Gui {
 
 		private void about_clicked() {
 			var about = new AboutDialog();
-			about.set_version("0.0.0");
+			about.set_version("0.0.1");
 			about.set_program_name("My Media Centre");
 			about.set_comments("Some details about Media Centre");
 			about.set_copyright("Brian Mooney");
