@@ -2,10 +2,9 @@ using Gtk;
 
 namespace MyMediaCentre.Gui {
 	public class MainWindow : Window {
-		private string mediaTitle;
 		
 		public MainWindow() {
-			this.title = "My Media Centre";
+			this.title = MyMediaCentre.APPLICATION_NAME;
 			this.border_width = 0;
 			this.window_position = WindowPosition.CENTER;
 			
